@@ -1,0 +1,5 @@
+tuple_input = (1,2,3,4)
+print(tuple_input)
+first_index = int(input("enter the first index: "))
+last_index = int(input("Enter the last index: "))
+print(tuple_input[first_index-1:last_index])

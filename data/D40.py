@@ -1,0 +1,5 @@
+tuple_var = (1,2,3)
+list_var = list(tuple_var)
+input_var = int(input('enter the var: '))
+list_var.append(input_var)
+print(tuple(list_var))

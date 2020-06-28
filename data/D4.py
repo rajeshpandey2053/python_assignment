@@ -1,0 +1,5 @@
+text1 = input()
+text2 = input()
+temp1 = text1.replace(text1[0], text2[0],1)
+temp2 = text2.replace(text2[0], text1[0],1)
+print(temp1 + ' ' + temp2)
